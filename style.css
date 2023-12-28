@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 0 3rem 0 3rem;
+    font-size: larger;
+
+}
+#btn{
+    width: 10vw;
+    margin-left: 5rem;
+    height: 4vh;
+    background-color: rgb(185 28 28);
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+
+}
+
