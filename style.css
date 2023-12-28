@@ -4,6 +4,10 @@
 
 }
 
+body{
+    background-color: rgb(209 250 229);
+}
+
 #navbar {
     background-color: black;
     color: white;
@@ -27,7 +31,8 @@
     font-size: larger;
 
 }
-#btn{
+
+#btn {
     width: 10vw;
     margin-left: 5rem;
     height: 4vh;
@@ -38,3 +43,46 @@
 
 }
 
+.img img {
+
+    /* border: 2px solid black; */
+    max-height: 100%;
+    width: 30vw;
+}
+
+.img {
+
+
+    width: fit-content;
+}
+
+.container-2 {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    /* border: 2px solid rebeccapurple; */
+
+}
+
+.About p {
+    font-size: 2.5rem;
+    width: 50vw;
+    padding: 2rem;
+    /* border: 2px solid red; */
+}
+
+.projects{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.projects p{
+
+    font-size: 2.5rem;
+
+}
