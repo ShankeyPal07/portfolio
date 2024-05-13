@@ -76,8 +76,9 @@ body {
 .second-container {
     margin-top: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     flex-wrap: wrap;
+    height: 30vh;
 }
 
 .aside-left {
@@ -129,4 +130,8 @@ body {
 display: flex;
 gap: 2rem;
 
+}
+
+.third-container{
+    text-align: center;
 }
