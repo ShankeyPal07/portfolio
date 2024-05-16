@@ -112,7 +112,7 @@ body {
 
 }
 
-.items p{
+.items p {
     margin: 1rem;
 }
 
@@ -131,8 +131,19 @@ body {
     text-align: center;
 }
 
-.items a  {
+.items a {
     text-decoration: none;
     color: black;
-   
+
+}
+
+@media screen and (max-width: 842px) {
+
+    .navbar {
+        background-color: red;
+        height: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
