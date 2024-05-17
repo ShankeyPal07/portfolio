@@ -20,6 +20,11 @@ body {
 
 }
 
+header{
+    position: sticky;
+    top: 0;
+
+}
 .navbar {
     height: 10vh;
     background-color: rgb(156 163 175);
